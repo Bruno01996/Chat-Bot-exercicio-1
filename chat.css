@@ -1,0 +1,67 @@
+
+.Titulo {
+  font-size:xx-large;
+  font-family:sans-serif;
+  padding:20px;
+  margin-top:auto;
+  background-color: rgb(27, 4, 97);
+  font-weight: 100;
+  color: beige;
+  border: 3px solid rgb(0, 0, 0);
+}
+#Tela-do-chat {
+  background-color: rgb(182, 174, 182);
+  border: 3px solid rgb(0, 0, 0);
+  max-width: 720px; 
+  margin: auto;
+
+}
+
+#Caixa-de-menssagens {
+  flex-direction: column;
+  
+}
+
+.menssagem-item { 
+  font-size: larger;
+  padding: 5px 10px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  }
+
+.menssagem-item-menssagem-user{
+  font-size: larger;
+  padding: 5px 10px;
+  display:flex;
+  flex-direction:column;
+  align-items:flex-end;
+}
+.titulo-menssagem {
+  padding: 5px 10px;
+}
+.conteudo-menssagem{
+  border: 3px solid rgb(28, 4, 99);  
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#Caixa-de-texto {
+  padding:20px;
+  border: 3px solid rgb(0, 0, 0);
+}
+
+#envia-menssagem {
+  padding: 12px;
+  width: 80%;
+  border: 3px solid rgb(0, 0, 0);
+  border-radius: 5px;
+}
+
+#botao {
+ font-size: large;
+ background-color:rgb(27, 4, 96);
+ padding: 20px;
+ border-radius: 5px;
+ margin-left: 8px;
+}
